@@ -1,31 +1,35 @@
 {
-  "name": "blog-starter-typescript",
+  "name": "blog",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev -p 64832",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc"
   },
+  "author": "KNIF <admin@knif.dev>",
+  "license": "GPL-3.0",
   "dependencies": {
-    "classnames": "2.2.6",
-    "date-fns": "2.10.0",
-    "gray-matter": "4.0.2",
+    "axios": "latest",
+    "classnames": "latest",
+    "date-fns": "latest",
+    "gray-matter": "latest",
     "next": "latest",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "remark": "11.0.2",
-    "remark-html": "10.0.0",
-    "typescript": "^3.9.2"
+    "react": "latest",
+    "react-dom": "latest",
+    "remark": "latest",
+    "remark-html": "latest",
+    "swr": "latest",
+    "typescript": "latest"
   },
   "devDependencies": {
-    "@types/classnames": "^2.2.10",
-    "@types/jest": "^25.2.2",
-    "@types/node": "^14.0.1",
-    "@types/react": "^16.9.35",
-    "@types/react-dom": "^16.9.8",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.4.0"
-  },
-  "license": "MIT"
+    "@types/classnames": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "postcss-preset-env": "latest",
+    "tailwindcss": "latest"
+  }
 }

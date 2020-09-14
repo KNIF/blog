@@ -8,6 +8,11 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+        // Custom Colors
+        'custom-bg': '#121212',
+        'custom-fg': '#E0E0E0',
+        'custom-bg-sec': '#161616',
+        'custom-red': '#EF5350',
       },
       spacing: {
         28: '7rem',
@@ -30,4 +35,4 @@ module.exports = {
       },
     },
   },
-}
+};
