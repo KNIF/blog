@@ -27,7 +27,7 @@ const Footer = () => {
               View on GitHub
             </a> */}
 
-            <a href='https://github.com/KNIF' target='_blank'>
+            <a href='https://github.com/KNIF' target='_blank' rel='noopener'>
               <img
                 src='/assets/icons/github.svg'
                 alt='GitHub'
@@ -38,6 +38,7 @@ const Footer = () => {
             <a
               href='https://twitter.com/@kNif68'
               target='_blank'
+              rel='noopener'
               className='ml-2'
             >
               <img
@@ -50,6 +51,7 @@ const Footer = () => {
             <a
               href='https://youtube.com/c/kNif68'
               target='_blank'
+              rel='noopener'
               className='ml-2'
             >
               <img
@@ -62,6 +64,7 @@ const Footer = () => {
             <a
               href='https://discord.gg/BGzdHuB'
               target='_blank'
+              rel='noopener'
               className='ml-2'
             >
               <img
@@ -74,6 +77,7 @@ const Footer = () => {
             <a
               href='https://steamcommunity.com/id/kNif68'
               target='_blank'
+              rel='noopener'
               className='ml-2'
             >
               <img
@@ -83,7 +87,12 @@ const Footer = () => {
                 height='30'
               />
             </a>
-            <a href='https://twitch.tv/kNif68' target='_blank' className='ml-2'>
+            <a
+              href='https://twitch.tv/kNif68'
+              target='_blank'
+              rel='noopener'
+              className='ml-2'
+            >
               <img
                 src='/assets/icons/twitch.svg'
                 alt='twitch'
@@ -94,6 +103,7 @@ const Footer = () => {
             <a
               href='https://reddit.com/u/kNif68'
               target='_blank'
+              rel='noopener'
               className='ml-2'
             >
               <img
