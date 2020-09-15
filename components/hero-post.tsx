@@ -6,25 +6,18 @@ import Author from '../types/author';
 
 type Props = {
   title: string;
-  coverImage: string;
+  image: string;
   date: string;
   excerpt: string;
   author: Author;
   slug: string;
 };
 
-const HeroPost = ({
-  title,
-  coverImage,
-  date,
-  excerpt,
-  author,
-  slug,
-}: Props) => {
+const HeroPost = ({ title, image, date, excerpt, author, slug }: Props) => {
   return (
     <section>
       <div className='mb-8 md:mb-16'>
-        <CoverImage title={title} src={coverImage} slug={slug} />
+        <CoverImage title={title} src={image} slug={slug} />
       </div>
       <div className='md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-20 md:mb-28'>
         <div>

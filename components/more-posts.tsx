@@ -16,7 +16,14 @@ const MorePosts = ({ posts }: Props) => {
           <PostPreview
             key={post.slug}
             title={post.title}
-            coverImage={post.coverImage}
+            image={
+              post.image
+                ? post.image
+                : `https://og-image.now.sh/${post.title.replace(
+                    ' ',
+                    '%20'
+                  )}.jpeg?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg`
+            }
             date={post.date}
             author={post.author}
             slug={post.slug}
