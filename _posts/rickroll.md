@@ -1,6 +1,6 @@
 ---
 title: 'Rickroll'
-excerpt: 'This is a Rickroll so be careful xD.'
+excerpt: 'This is a Rickroll so be careful.'
 date: '2020-09-15T12:00:00Z'
 author:
   name: KNIF
