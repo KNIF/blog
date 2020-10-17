@@ -11,7 +11,6 @@
   "author": "KNIF <admin@knif.dev>",
   "license": "GPL-3.0",
   "dependencies": {
-    "@types/request": "^2.48.5",
     "axios": "latest",
     "classnames": "latest",
     "date-fns": "latest",
@@ -31,6 +30,7 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/request": "latest",
     "postcss-preset-env": "latest",
     "tailwindcss": "latest"
   }
