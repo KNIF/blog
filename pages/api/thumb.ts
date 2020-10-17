@@ -37,5 +37,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   );
 
   res.setHeader('Cache-Control', 'public, max-age=600, s-maxage=600');
-  res.status(200).json({ message: 'Hello World' });
+  res.status(200).json({ image: process.env.VERCEL_URL + '/assets/image.png' });
 };
