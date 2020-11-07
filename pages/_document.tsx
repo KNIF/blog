@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang='en' className='bg-custom-bg text-custom-fg'>
-        <Head>
+        {/* <Head>
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
@@ -14,10 +14,21 @@ export default class MyDocument extends Document {
               __html: `window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', '${process.env.GA_TRACKING_ID}', { page_path: window.location.pathname, });`,
             }}
           />
-        </Head>
+        </Head> */}
         <body>
           <Main />
           <NextScript />
+          <script
+            async
+            defer
+            src='https://scripts.simpleanalyticscdn.com/latest.js'
+          ></script>
+          <noscript>
+            <img
+              src='https://queue.simpleanalyticscdn.com/noscript.gif'
+              alt=''
+            />
+          </noscript>
         </body>
       </Html>
     );
