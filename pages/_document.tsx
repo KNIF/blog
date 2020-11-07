@@ -8,16 +8,9 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script
-            async
-            defer
-            src='https://scripts.simpleanalyticscdn.com/latest.js'
-          ></script>
+          <script async defer src='https://sa.knif.dev/latest.js'></script>
           <noscript>
-            <img
-              src='https://queue.simpleanalyticscdn.com/noscript.gif'
-              alt=''
-            />
+            <img src='https://sa.knif.dev/noscript.gif' alt='' />
           </noscript>
         </body>
       </Html>
