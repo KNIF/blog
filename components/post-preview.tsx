@@ -16,7 +16,7 @@ type Props = {
 const PostPreview = ({ title, image, date, excerpt, author, slug }: Props) => {
   return (
     <div>
-      <div className='mb-5'>
+      <div className='mb-5 mr-5'>
         <CoverImage slug={slug} title={title} src={image} />
       </div>
       <h3 className='text-3xl mb-3 leading-snug'>

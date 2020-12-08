@@ -18,6 +18,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       })}
       width={1280}
       height={720}
+      layout='responsive'
     />
   );
 
