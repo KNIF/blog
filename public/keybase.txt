@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/knif
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://knif.dev
+  * I am knif (https://keybase.io/knif) on keybase.
+  * I have a public key ASCftfghLpX0JXF5TB242ZLYi_4Uj5TIDUMoQAE_PS1_aAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012007960ad2270c088538acb18f5e1bfb0377f8e06e5b4cce58a8cfaff28ec20f8d0a",
+      "host": "keybase.io",
+      "kid": "01209fb5f8212e95f42571794c1db8d992d88bfe148f94c80d432840013f3d2d7f680a",
+      "uid": "e24990a0e48ba6b0bbdca723eeb83719",
+      "username": "knif"
+    },
+    "merkle_root": {
+      "ctime": 1609871811,
+      "hash": "1e229f5757f5f180d292bb69d7ab18de69b5dc01644e1afafca53d846d377fdd726adc87e286724d55139264e721b03ad8b3dfb4e7a2afdbd38323c9988e96dd",
+      "hash_meta": "037065275f2c8284b19f74f2bb0adc1df5134e07f4f6ecf212947ba3ac0b66dc",
+      "seqno": 18602571
+    },
+    "service": {
+      "entropy": "/KPO6eqQMP8efXbqPy+MSXFw",
+      "hostname": "knif.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1609871875,
+  "expire_in": 504576000,
+  "prev": "f2c09463a9c3742a7b1e6c6fd38b9fd447031586af914a6016af6c56a11d3ac9",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgn7X4IS6V9CVxeUwduNmS2Iv+FI+UyA1DKEABPz0tf2gKp3BheWxvYWTESpcCDMQg8sCUY6nDdCp7Hmxv04uf1EcDFYavkUpgFq9sVqEdOsnEIFjiFpnAWa4RPYyZJATljCVtO3HSt/QBkrrQhjNTDH63AgHCo3NpZ8RArKNPvL8p0DV/QQdI0XGddQwjQld30eO4PvXF6149QoeCtYp4lErfjuFt0+xu5CHQAEsVkL5T0qKpBZw1xszNAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAzREFCEzXnjI33epHGaVfRrb8Bvb2bzClZDnltwDTQKo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/knif
+
+==================================================================
