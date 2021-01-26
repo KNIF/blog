@@ -13,6 +13,10 @@ export default class MyDocument extends Document {
             async
             defer
             data-website-id='89d830f0-49ac-4dd0-a884-aa5dcae8a9ad'
+            data-host-url='https://umami.knif.dev'
+            data-auto-track='true'
+            data-do-not-track='true'
+            data-cache='false'
             src='/um.js'
           ></script>
         </Head>
