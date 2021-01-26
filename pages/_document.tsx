@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
       <Html lang='en' className='bg-custom-bg text-custom-fg'>
         <Head>
           {/* Splitbee Analytics */}
-          <script async src='https://cdn.splitbee.io/sb.js'></script>
+          <script async data-api='/_hive' src='/bee.js'></script>
           {/* umami Analytics */}
           <script
             async
