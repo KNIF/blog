@@ -31,7 +31,7 @@ const Footer = () => {
               href='https://github.com/KNIF'
               target='_blank'
               rel='noopener'
-              className='button umami--click--github-link'
+              className='button umami--click--github-button'
             >
               <img
                 src='/assets/icons/github.svg'
@@ -44,7 +44,7 @@ const Footer = () => {
               href='https://twitter.com/@kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2 button umami--click--twitter-link'
+              className='ml-2 button umami--click--twitter-button'
             >
               <img
                 src='/assets/icons/twitter.svg'
@@ -57,7 +57,7 @@ const Footer = () => {
               href='https://youtube.com/c/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2 button umami--click--youtube-link'
+              className='ml-2 button umami--click--youtube-button'
             >
               <img
                 src='/assets/icons/youtube.svg'
@@ -70,20 +70,20 @@ const Footer = () => {
               href='https://discord.gg/BGzdHuB'
               target='_blank'
               rel='noopener'
-              className='ml-2'
+              className='ml-2 button umami--click--discord-button'
             >
               <img
                 src='/assets/icons/discord.svg'
                 alt='Discord'
                 width='30'
-                height='30 button umami--click--discord-link'
+                height='30'
               />
             </a>
             <a
               href='https://steamcommunity.com/id/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2 button umami--click--steam-link'
+              className='ml-2 button umami--click--steam-button'
             >
               <img
                 src='/assets/icons/steam.svg'
@@ -96,7 +96,7 @@ const Footer = () => {
               href='https://twitch.tv/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2 button umami--click--twitch-link'
+              className='ml-2 button umami--click--twitch-button'
             >
               <img
                 src='/assets/icons/twitch.svg'
@@ -109,7 +109,7 @@ const Footer = () => {
               href='https://reddit.com/u/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2 button umami--click--reddit-link'
+              className='ml-2 button umami--click--reddit-button'
             >
               <img
                 src='/assets/icons/reddit.svg'

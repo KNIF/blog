@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           <script
             async
             defer
-            data-website-id='0979fa61-3d1e-4064-bbaa-660768576a2f'
+            data-website-id='89d830f0-49ac-4dd0-a884-aa5dcae8a9ad'
             src='https://umami.knif.dev/umami.js'
           ></script>
         </Head>
