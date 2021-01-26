@@ -27,7 +27,12 @@ const Footer = () => {
               View on GitHub
             </a> */}
 
-            <a href='https://github.com/KNIF' target='_blank' rel='noopener'>
+            <a
+              href='https://github.com/KNIF'
+              target='_blank'
+              rel='noopener'
+              className='button umami--click--github-link'
+            >
               <img
                 src='/assets/icons/github.svg'
                 alt='GitHub'
@@ -39,7 +44,7 @@ const Footer = () => {
               href='https://twitter.com/@kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2'
+              className='ml-2 button umami--click--twitter-link'
             >
               <img
                 src='/assets/icons/twitter.svg'
@@ -52,7 +57,7 @@ const Footer = () => {
               href='https://youtube.com/c/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2'
+              className='ml-2 button umami--click--youtube-link'
             >
               <img
                 src='/assets/icons/youtube.svg'
@@ -71,14 +76,14 @@ const Footer = () => {
                 src='/assets/icons/discord.svg'
                 alt='Discord'
                 width='30'
-                height='30'
+                height='30 button umami--click--discord-link'
               />
             </a>
             <a
               href='https://steamcommunity.com/id/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2'
+              className='ml-2 button umami--click--steam-link'
             >
               <img
                 src='/assets/icons/steam.svg'
@@ -91,7 +96,7 @@ const Footer = () => {
               href='https://twitch.tv/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2'
+              className='ml-2 button umami--click--twitch-link'
             >
               <img
                 src='/assets/icons/twitch.svg'
@@ -104,7 +109,7 @@ const Footer = () => {
               href='https://reddit.com/u/kNif68'
               target='_blank'
               rel='noopener'
-              className='ml-2'
+              className='ml-2 button umami--click--reddit-link'
             >
               <img
                 src='/assets/icons/reddit.svg'
