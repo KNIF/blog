@@ -24,6 +24,10 @@ module.exports = {
         source: '/ns.gif',
         destination: 'https://sa.knif.dev/noscript.gif',
       },
+      {
+        source: '/pb.js',
+        destination: 'https://cdn.panelbear.com/analytics.js',
+      },
     ];
   },
 };

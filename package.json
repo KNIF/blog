@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,6 +11,7 @@
   "author": "KNIF <admin@knif.dev>",
   "license": "GPL-3.0",
   "dependencies": {
+    "@panelbear/panelbear-js": "latest",
     "axios": "latest",
     "classnames": "latest",
     "date-fns": "latest",
