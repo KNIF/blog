@@ -6,11 +6,11 @@ module.exports = {
     return [
       {
         source: '/sb.js',
-        destination: 'https://sb.knif.workers.dev/sb.js',
+        destination: 'https://analytics.knif.workers.dev/sb.js',
       },
       {
         source: '/_sbh/:slug',
-        destination: 'https://sb.knif.workers.dev/:slug',
+        destination: 'https://analytics.knif.workers.dev/:slug',
       },
       {
         source: '/um.js',
@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         source: '/pb.js',
-        destination: 'https://cdn.panelbear.com/analytics.js',
+        destination: 'https://analytics.knif.workers.dev/pb.js',
       },
     ];
   },
