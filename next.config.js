@@ -1,3 +1,5 @@
+const proxyUrl = 'https://analytics.knif.workers.dev';
+
 module.exports = {
   images: {
     domains: ['og-image.now.sh'],
@@ -6,27 +8,27 @@ module.exports = {
     return [
       {
         source: '/sb.js',
-        destination: 'https://analytics.knif.workers.dev/sb.js',
+        destination: proxyUrl + '/sb.js',
       },
       {
         source: '/_sbh/:slug',
-        destination: 'https://analytics.knif.workers.dev/:slug',
+        destination: proxyUrl + '/:slug',
       },
       {
         source: '/um.js',
-        destination: 'https://umami.knif.dev/umami.js',
+        destination: proxyUrl + '/um.js',
       },
       {
         source: '/sa.js',
-        destination: 'https://sa.knif.dev/latest.js',
+        destination: proxyUrl + '/sa.js',
       },
       {
         source: '/ns.gif',
-        destination: 'https://sa.knif.dev/noscript.gif',
+        destination: proxyUrl + '/ns.gif',
       },
       {
         source: '/pb.js',
-        destination: 'https://analytics.knif.workers.dev/pb.js',
+        destination: proxyUrl + '/pb.js',
       },
     ];
   },
