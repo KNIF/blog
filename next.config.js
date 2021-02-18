@@ -6,11 +6,11 @@ module.exports = {
     return [
       {
         source: '/sb.js',
-        destination: 'https://cdn.splitbee.io/sb.js',
+        destination: 'https://sb.knif.workers.dev/sb.js',
       },
       {
         source: '/_sbh/:slug',
-        destination: 'https://hive.splitbee.io/:slug',
+        destination: 'https://sb.knif.workers.dev/:slug',
       },
       {
         source: '/um.js',
