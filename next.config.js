@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         source: '/um.js',
-        destination: proxyUrl + '/um.js',
+        destination: 'https://umami.knif.dev/umami.js',
       },
       {
         source: '/sa.js',
