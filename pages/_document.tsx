@@ -13,9 +13,6 @@ export default class MyDocument extends Document {
             data-host-url='https://umami.knif.dev'
             src='/um.js'
           ></script>
-
-          {/* Plausible Analytics */}
-          <script async defer data-domain='knif.dev' src='/pl.js'></script>
         </Head>
         <body>
           <Main />
