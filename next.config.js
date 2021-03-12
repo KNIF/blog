@@ -16,8 +16,8 @@ module.exports = {
       },
       {
         source: '/pl.js',
-        destination: 'https://plausible.io/js/plausible.js'
-      }
+        destination: 'https://plausible.io/js/plausible.js',
+      },
       {
         source: '/sa.js',
         destination: proxyUrl + '/sa.js',
