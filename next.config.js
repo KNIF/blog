@@ -7,14 +7,6 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/sb.js',
-        destination: proxyUrl + '/sb.js',
-      },
-      {
-        source: '/_sbh/:slug',
-        destination: proxyUrl + '/:slug',
-      },
-      {
         source: '/um.js',
         destination: 'https://umami.knif.dev/umami.js',
       },

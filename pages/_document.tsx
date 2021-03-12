@@ -5,18 +5,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en' className='bg-custom-bg text-custom-fg'>
         <Head>
-          {/* Splitbee Analytics */}
-          <script async data-api='/_sbh' src='/sb.js'></script>
-
           {/* umami Analytics */}
           <script
             async
             defer
-            data-website-id='89d830f0-49ac-4dd0-a884-aa5dcae8a9ad'
+            data-website-id='0033420c-73c5-4a73-8a87-f5595ed2e820'
             data-host-url='https://umami.knif.dev'
-            data-auto-track='true'
-            data-do-not-track='true'
-            data-cache='false'
             src='/um.js'
           ></script>
         </Head>
