@@ -8,19 +8,19 @@ module.exports = {
     return [
       {
         source: '/um.js',
-        destination: 'https://umami.knif.dev/umami.js',
+        destination: proxyUrl + '/um',
       },
       {
         source: '/pb.js',
-        destination: proxyUrl + '/pb.js',
+        destination: proxyUrl + '/pb',
       },
       {
         source: '/sa.js',
-        destination: proxyUrl + '/sa.js',
+        destination: proxyUrl + '/sa',
       },
       {
         source: '/ns.gif',
-        destination: proxyUrl + '/ns.gif',
+        destination: proxyUrl + '/sa-ns',
       },
     ];
   },
