@@ -1,4 +1,4 @@
-const proxyUrl = 'https://analytics.knif.dev';
+const proxyUrl = 'https://analytics.knif.workers.dev';
 
 module.exports = {
   images: {
