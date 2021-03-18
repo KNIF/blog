@@ -23,6 +23,13 @@ export default class MyDocument extends Document {
           <noscript>
             <img src='/ns.gif' alt='No JavaScript' />
           </noscript>
+
+          {/* Cloudflare Web Analytics */}
+          <script
+            defer
+            src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "55cccbc6a3e947308d7fa07553a6dd10"}'
+          ></script>
         </body>
       </Html>
     );
