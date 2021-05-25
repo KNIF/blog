@@ -30,6 +30,9 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "postcss": "latest",
+    "postcss-loader": "latest",
+    "postcss-nested": "latest",
     "postcss-preset-env": "latest",
     "tailwindcss": "latest"
   }
