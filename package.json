@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -21,8 +21,10 @@
     "react-dom": "latest",
     "remark": "latest",
     "remark-html": "latest",
+    "remark-parse": "latest",
     "swr": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "unified": "latest"
   },
   "devDependencies": {
     "@types/classnames": "latest",
